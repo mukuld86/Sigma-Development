@@ -1,0 +1,22 @@
+div{
+    display: flex;
+}
+p{
+    padding-top: 3rem;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 70%;
+    border: 1px solid black;
+    background-color:bisque;
+    font-size: 2rem;
+}
+#left{
+    padding-left: 4rem;
+    text-align: center;
+    
+}
+#right{
+    padding-right: 4rem;
+    text-align: center;
+
+}
