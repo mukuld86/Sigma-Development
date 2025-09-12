@@ -6,8 +6,7 @@
     <title>Animations in CSS</title>
     <style>
         .box{
-            height: 100px;;
-            width: 300px;
+            width: 400px;
             background-color: lightcoral;
             animation-name: animate;
             animation-duration: 3s;
@@ -18,7 +17,9 @@
         h1{
             border-radius: 10px;
         }
-
+        .footer {
+            animation: naam 3s infinite alternate;
+        }
         @keyframes animate {
             /* from{ */
             0% {
@@ -39,11 +40,23 @@
             }
         }
 
+        @keyframes naam {
+            from{
+                width: 200px;
+            }
+            to{
+                font-size: 50px;
+                background-color: yellow;
+                color: red;
+                width: 500px;
+            }
+        }
+
     </style>
 </head>
 <body>
     <h1>Animations in CSS</h1>
     <div class="box"> I am a div used to demonstrate animations in css</div>
-    
+    <div class="footer"> Made with &hearts; by Mukul</div>
 </body>
 </html>
